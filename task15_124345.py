@@ -1,0 +1,7 @@
+p = list(range(3,14))
+q = list(range(12,23))
+a = list(range(-300,301))
+for x in range(-300,301):
+    if not(((x in a) <= (x in p)) or (x in q)):
+        a.remove(x)
+print(a)
