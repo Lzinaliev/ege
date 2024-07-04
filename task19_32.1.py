@@ -2,7 +2,7 @@
 #01
 list = []
 def f(n,m,p):
-    if n +m > 39 and p == 1:
+    if n + m > 39 and p == 1:
         return 1
     if n + m <= 39 and p == 1:
         return 0
